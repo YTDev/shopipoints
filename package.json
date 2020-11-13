@@ -1,0 +1,24 @@
+{
+  "name": "shopipoints",
+  "version": "1.0.0",
+  "description": "test shopipoints",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YTDev/shopipoints.git"
+  },
+  "keywords": [
+    "shopify",
+    "test",
+    "training"
+  ],
+  "author": "yt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YTDev/shopipoints/issues"
+  },
+  "homepage": "https://github.com/YTDev/shopipoints#readme"
+}
