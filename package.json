@@ -4,7 +4,9 @@
   "description": "test shopipoints",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "node scripts/deploy.js",
+    "watch": "theme deploy --env=development && theme watch --env=development"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/YTDev/shopipoints/issues"
   },
-  "homepage": "https://github.com/YTDev/shopipoints#readme"
+  "homepage": "https://github.com/YTDev/shopipoints#readme",
+  "dependencies": {
+    "@shopify/themekit": "^1.1.6"
+  }
 }
